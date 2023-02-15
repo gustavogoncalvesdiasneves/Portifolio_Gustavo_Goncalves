@@ -46,7 +46,6 @@ mysql-connector-python==8.0.30
 openpyxl==3.0.10
 outcome==1.2.0
 packaging==21.3
-pandas==1.5.0
 parsel==1.6.0
 patchelf==0.15.0.0
 Protego==0.2.1
@@ -56,9 +55,6 @@ pyasn1-modules==0.2.8
 PyAutoGUI==0.9.53
 pycparser==2.21
 PyDispatcher==2.0.6
-pyexcel==0.7.0
-pyexcel-io==0.6.6
-pyexcel-xlsx==0.6.0
 PyGetWindow==0.0.9
 pyinstaller==5.7.0
 pyinstaller-hooks-contrib==2022.14

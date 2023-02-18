@@ -13,7 +13,7 @@ body {
   height: 100vh;
   width: 100vw;
   background-color: #60E1E0;
-  background-image: url("./foto3.png");
+  /*background-image: url("./foto3.png");*/
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
@@ -25,6 +25,26 @@ body {
   padding: 0 112px;
   position: relative;
 }
+
+.teste {
+  width: 100%;
+  height: 100%;
+  background-color: #60E1E0;
+  background-image: url("./foto3.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 60%;
+  back
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  box-sizing: border-box;
+  margin-right: auto;
+  padding: 200px 0 0 0;
+  position: relative;
+}
+
 
 h1 {
   font-size: 37px;
@@ -191,7 +211,7 @@ a:hover {
   flex-direction: column;
   justify-content: space-evenly;
   margin: 3em 0;
-  
+
 }
 
 .card-container {
@@ -368,4 +388,608 @@ a:hover {
   align-items: center;
   justify-content: center;
   color: #1E1E2A;
+}
+
+@media screen and (max-width: 1200px){
+  /* header */
+
+  .header-container{
+    height: 100vh;
+    width: 100vw;
+    background-color: #60E1E0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 70px 112px;
+    position: relative;
+  }
+
+  .teste {
+    background-color: #60E1E0;
+    background-image: url("./foto3.png");
+    background-repeat: no-repeat;
+    background-position: center 20px;
+    background-size: 46%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 45px 250px;
+    position: relative;
+  }
+
+  h1 {
+    padding-top: 100%;
+    font-size: 23px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+  }
+
+  .social-media {
+    margin-top: 1rem;
+    display: flex;
+
+  }
+
+  .social-media a {
+    text-decoration: none;
+    color: #1E1E2A;
+    padding: 1rem 3rem;
+    border: 1px solid #1E1E2A;
+    min-width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s ease-in-out;
+  }
+
+  a:hover {
+    background-color: #ffffff;
+  }
+
+  /* Cards */
+
+  .card-1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin: 3em 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #60E1E0;
+    background-image: url("./BOT_LinkedIn.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: grayscale(0.5);
+    color: #1E1E2A;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+  }
+
+  .card-2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin: 3em 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #60E1E0;
+    background-image: url("./5S.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: grayscale(0.5);
+    color: #1E1E2A;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+  }
+
+  .card-3 {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin: 3em 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #60E1E0;
+    background-image: url("./IONIC_APP_TASKER.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: grayscale(0.5);
+    color: #1E1E2A;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+  }
+
+  .card-wrapper h2 {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 0;
+    transition: 0.5s ease-in-out;
+  }
+
+  .card-wrapper p {
+    font-size: 0;
+    visibility: visible;
+    opacity: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.5s ease-in-out;
+
+  }
+
+  .card-text {
+    width: 40%;
+    letter-spacing: 1px;
+    font-size: 14px;
+    color: rgb(109, 109, 109);
+  }
+
+}
+
+@media screen and (max-width: 992px){
+  /* header */
+
+  .header-container{
+    height: 100vh;
+    width: 100vw;
+    background-color: #60E1E0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 0 112px;
+    position: relative;
+  }
+
+  .teste {
+    background-color: #60E1E0;
+    background-image: url("./foto3.png");
+    background-repeat: no-repeat;
+    background-position: center 20px;
+    background-size: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 0 180px;
+    position: relative;
+  }
+
+  h1 {
+    padding-top: 100%;
+    font-size: 23px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+  }
+
+  .social-media {
+    margin-top: 1rem;
+    display: flex;
+
+  }
+
+  .social-media a {
+    text-decoration: none;
+    color: #1E1E2A;
+    padding: 1rem 3rem;
+    border: 1px solid #1E1E2A;
+    min-width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s ease-in-out;
+  }
+
+  a:hover {
+    background-color: #ffffff;
+  }
+
+  /* Cards */
+
+  .card-1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin: 3em 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #60E1E0;
+    background-image: url("./BOT_LinkedIn.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: grayscale(0.5);
+    color: #1E1E2A;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+  }
+
+  .card-2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin: 3em 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #60E1E0;
+    background-image: url("./5S.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: grayscale(0.5);
+    color: #1E1E2A;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+  }
+
+  .card-3 {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin: 3em 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #60E1E0;
+    background-image: url("./IONIC_APP_TASKER.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: grayscale(0.5);
+    color: #1E1E2A;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+  }
+
+  .card-wrapper h2 {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 0;
+    transition: 0.5s ease-in-out;
+  }
+
+  .card-wrapper p {
+    font-size: 0;
+    visibility: visible;
+    opacity: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.5s ease-in-out;
+
+  }
+
+  .card-text {
+    width: 40%;
+    letter-spacing: 1px;
+    font-size: 14px;
+    color: rgb(109, 109, 109);
+  }
+
+}
+
+@media screen and (max-width: 768px){
+  /* header */
+
+  .header-container{
+    height: 100vh;
+    width: 100vw;
+    background-color: #60E1E0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 0 112px;
+    position: relative;
+  }
+
+  .teste {
+    background-color: #60E1E0;
+    background-image: url("./foto3.png");
+    background-repeat: no-repeat;
+    background-position: center 30px;
+    background-size: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 0 100px;
+    position: relative;
+  }
+
+  h1 {
+
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+  }
+
+  .social-media {
+    margin-top: 1rem;
+    display: flex;
+
+  }
+
+  .social-media a {
+    text-decoration: none;
+    color: #1E1E2A;
+    padding: 1rem 3rem;
+    border: 1px solid #1E1E2A;
+    min-width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s ease-in-out;
+  }
+
+  a:hover {
+    background-color: #ffffff;
+  }
+
+  /* Cards */
+
+  .card-1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin: 3em 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #60E1E0;
+    background-image: url("./BOT_LinkedIn.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: grayscale(0.5);
+    color: #1E1E2A;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+  }
+
+  .card-2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin: 3em 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #60E1E0;
+    background-image: url("./5S.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: grayscale(0.5);
+    color: #1E1E2A;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+  }
+
+  .card-3 {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin: 3em 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #60E1E0;
+    background-image: url("./IONIC_APP_TASKER.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: grayscale(0.5);
+    color: #1E1E2A;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+  }
+
+  .card-wrapper h2 {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 0;
+    transition: 0.5s ease-in-out;
+  }
+
+  .card-wrapper p {
+    font-size: 0;
+    visibility: visible;
+    opacity: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.5s ease-in-out;
+
+  }
+
+  .card-text {
+    width: 40%;
+    letter-spacing: 1px;
+    font-size: 14px;
+    color: rgb(109, 109, 109);
+  }
+
+}
+
+@media screen and (max-width: 600px){
+  /* header */
+
+  .header-container{
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 0 112px;
+    position: relative;
+  }
+
+  h1 {
+    padding-top: 100%;
+    font-size: 23px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+  }
+
+  .teste {
+    background-color: #60E1E0;
+    background-image: url("./foto3.png");
+    background-repeat: no-repeat;
+    background-position: center 110px;
+    background-size: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 0 0 0 0;
+    position: relative;
+  }
+
+  .social-media {
+    margin-top: 1rem;
+    display: flex;
+
+  }
+
+  .social-media a {
+    text-decoration: none;
+    color: #1E1E2A;
+    padding: 1rem 3rem;
+    border: 1px solid #1E1E2A;
+    min-width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s ease-in-out;
+  }
+
+  a:hover {
+    background-color: #ffffff;
+  }
+
+  /* Cards */
+
+  .card-1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin: 3em 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #60E1E0;
+    background-image: url("./BOT_LinkedIn.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: grayscale(0.5);
+    color: #1E1E2A;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+  }
+
+  .card-2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin: 3em 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #60E1E0;
+    background-image: url("./5S.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: grayscale(0.5);
+    color: #1E1E2A;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+  }
+
+  .card-3 {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin: 3em 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #60E1E0;
+    background-image: url("./IONIC_APP_TASKER.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: grayscale(0.5);
+    color: #1E1E2A;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+  }
+
+  .card-wrapper h2 {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 0;
+    transition: 0.5s ease-in-out;
+  }
+
+  .card-wrapper p {
+    font-size: 0;
+    visibility: visible;
+    opacity: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.5s ease-in-out;
+
+  }
+
+  .card-text {
+    width: 40%;
+    letter-spacing: 1px;
+    font-size: 14px;
+    color: rgb(109, 109, 109);
+  }
+
 }

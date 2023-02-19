@@ -7,7 +7,7 @@ body {
   color: #1E1E2A;
 }
 
-/* header1 */
+/* header */
 
 .header-container{
   height: 100vh;
@@ -282,6 +282,7 @@ a:hover {
   width: 40%;
   letter-spacing: 1px;
   color: rgb(109, 109, 109);
+  font-size: larger;
 }
 
 
@@ -386,6 +387,7 @@ a:hover {
   background-color: #60E1E0;
   display: flex;
   align-items: center;
+  text-align: center;
   justify-content: center;
   color: #1E1E2A;
 }
@@ -415,7 +417,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     box-sizing: border-box;
     padding: 45px 250px;
     position: relative;
@@ -535,7 +537,7 @@ a:hover {
   .card-text {
     width: 40%;
     letter-spacing: 1px;
-    font-size: 14px;
+    font-size: larger;
     color: rgb(109, 109, 109);
   }
 
@@ -566,7 +568,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     box-sizing: border-box;
     padding: 0 180px;
     position: relative;
@@ -686,7 +688,7 @@ a:hover {
   .card-text {
     width: 40%;
     letter-spacing: 1px;
-    font-size: 14px;
+    font-size: larger;
     color: rgb(109, 109, 109);
   }
 
@@ -717,7 +719,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     box-sizing: border-box;
     padding: 0 100px;
     position: relative;
@@ -837,7 +839,7 @@ a:hover {
   .card-text {
     width: 40%;
     letter-spacing: 1px;
-    font-size: 14px;
+    font-size: larger;
     color: rgb(109, 109, 109);
   }
 
@@ -883,7 +885,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     box-sizing: border-box;
     padding: 0 0 0 0;
     position: relative;
@@ -988,7 +990,158 @@ a:hover {
   .card-text {
     width: 40%;
     letter-spacing: 1px;
-    font-size: 14px;
+    font-size: larger;
+    color: rgb(109, 109, 109);
+  }
+
+}
+
+@media screen and (max-width: 300px){
+  /* header */
+
+  .header-container{
+    height: 35vh;
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 0 112px;
+    position: relative;
+  }
+
+  h1 {
+    padding-top: 100%;
+    font-size: 23px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+  }
+
+  .teste {
+    background-color: #60E1E0;
+    background-image: url("./foto3.png");
+    background-repeat: no-repeat;
+    background-position: center 110px;
+    background-size: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 0 0 0;
+    position: relative;
+  }
+
+  .social-media {
+    margin-top: 1rem;
+    display: flex;
+
+  }
+
+  .social-media a {
+    text-decoration: none;
+    color: #1E1E2A;
+    padding: 1rem 3rem;
+    border: 1px solid #1E1E2A;
+    min-width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s ease-in-out;
+  }
+
+  a:hover {
+    background-color: #ffffff;
+  }
+
+  /* Cards */
+
+  .card-1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin: 3em 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #60E1E0;
+    background-image: url("./BOT_LinkedIn.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: grayscale(0.5);
+    color: #1E1E2A;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+  }
+
+  .card-2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin: 3em 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #60E1E0;
+    background-image: url("./5S.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: grayscale(0.5);
+    color: #1E1E2A;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+  }
+
+  .card-3 {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin: 3em 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #60E1E0;
+    background-image: url("./IONIC_APP_TASKER.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: grayscale(0.5);
+    color: #1E1E2A;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+  }
+
+  .card-wrapper h2 {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 0;
+    transition: 0.5s ease-in-out;
+  }
+
+  .card-wrapper p {
+    font-size: 0;
+    visibility: visible;
+    opacity: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.5s ease-in-out;
+
+  }
+
+  .card-text {
+    width: 40%;
+    letter-spacing: 1px;
+    font-size: larger;
     color: rgb(109, 109, 109);
   }
 

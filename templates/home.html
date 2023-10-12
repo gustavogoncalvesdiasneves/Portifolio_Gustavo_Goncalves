@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Portifolio</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="{{ url_for('static', filename='next_function.js') }}"></script>
   </head>
   <body>
     <header class="header-container">
@@ -45,9 +46,10 @@
       </div>
   </header>
   <main class="container" id="projetos">
+    
     <a href="https://github.com/gustavogoncalvesdiasneves/BOT_LinkedIn_PlayerG4" style="text-decoration:none" target="_blank"
     <div class="card-container" >
-      <div class="card-1">
+      <div class="card-geral" style="background-image: url(../static/BOT_LinkedIn.png);">
         <div class="card-wrapper">
           <h2>LinkedIn BOT</h2>
           <p>Venha Conferir!</p>
@@ -61,7 +63,7 @@
     </div>
       <a href="https://github.com/gustavogoncalvesdiasneves/Aplicativo_5S_-PowerApps-" style="text-decoration:none" target="_blank"
     <div class="card-container">
-      <div class="card-2">
+      <div class="card-geral" style="background-image: url(../static/5S.jpg);">
         <div class="card-wrapper">
           <h2>Aplicativo 5S</h2>
           <p>Venha Conferir!</p>
@@ -73,9 +75,9 @@
     </div>
     </a>
 
-    <a href="https://github.com/gustavogoncalvesdiasneves/Aplicativo_5S_-PowerApps-" style="text-decoration:none" target="_blank"
+    <a href="https://github.com/gustavogoncalvesdiasneves/Tasker_APP_IONIC_Download" style="text-decoration:none" target="_blank"
     <div class="card-container">
-      <div class="card-3">
+      <div class="card-geral" style="background-image: url(../static/IONIC_APP_TASKER.jpg);">
         <div class="card-wrapper">
           <h2>Tasker APP (Aplicativo de Tarefas)</h2>
           <p>Venha Conferir!</p>
@@ -88,6 +90,15 @@ de Realizador de Tarefas, para customizações a gosto do usuario =D.</p>
 
     </div>
   </a>
+  <div id="projects">
+  
+  </div>
+  <div class="button-container">
+    <button id="nextButton" class="next-button">Next</button>
+  </div>
+  
+
+  
   </main>
   <main class="footer">
     Feito por Gustavo Gonçalves

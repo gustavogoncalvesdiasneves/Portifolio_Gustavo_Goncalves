@@ -234,7 +234,7 @@ a:hover {
 
 /* Cards */
 
-.card-1 {
+.card-geral {
   width: 300px;
   height: 300px;
   border-radius: 100%;
@@ -243,49 +243,7 @@ a:hover {
   align-items: center;
   justify-content: center;
   background-color: #60E1E0;
-  background-image: url("./BOT_LinkedIn.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  filter: grayscale(0.5);
-  color: #1E1E2A;
-  cursor: pointer;
-  transition: 0.5s ease-in-out;
-  -moz-border-radius: 100%;
-  -webkit-border-radius: 100%;
-  border: 4px solid rgba(0,0,0,0.1);
-}
-
-.card-2 {
-  width: 300px;
-  height: 300px;
-  border-radius: 100%;
-  margin: 3em 0 0 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #60E1E0;
-  background-image: url("./5S.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  filter: grayscale(0.5);
-  color: #1E1E2A;
-  cursor: pointer;
-  transition: 0.5s ease-in-out;
-  -moz-border-radius: 100%;
-  -webkit-border-radius: 100%;
-  border: 4px solid rgba(0,0,0,0.1);
-}
-
-.card-3 {
-  width: 300px;
-  height: 300px;
-  border-radius: 100%;
-  margin: 3em 0 0 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #60E1E0;
-  background-image: url("./IONIC_APP_TASKER.jpg");
+  /* background-image: url("./BOT_LinkedIn.png"); */
   background-position: center;
   background-repeat: no-repeat;
   filter: grayscale(0.5);
@@ -347,56 +305,44 @@ a:hover {
   text-shadow: 0 0 0.2em #87F, 0 0 0.2em #87F, 0 0 0.2em #87F;
 }
 
-.card-1:hover {
+.card-geral:hover {
   filter: unset;
 }
 
-.card-2:hover {
-  filter: unset;
-}
-
-.card-3:hover {
-  filter: unset;
-}
-
-.card-1:hover > .card-wrapper::before {
+.card-geral:hover > .card-wrapper::before {
   height: 200px;
   width: 200px;
   opacity: 1;
 }
 
-.card-2:hover > .card-wrapper::before {
-  height: 200px;
-  width: 200px;
-  opacity: 1;
-}
-
-.card-3:hover > .card-wrapper::before {
-  height: 200px;
-  width: 200px;
-  opacity: 1;
-}
-
-.card-1:hover > .card-wrapper p {
+.card-geral:hover > .card-wrapper p {
   opacity: 1;
   visibility: visible;
   font-size: 14px;
 
 }
 
-.card-2:hover > .card-wrapper p {
-  opacity: 1;
-  visibility: visible;
-  font-size: 14px;
-
+.button-container {
+  text-align: center;
+  
 }
 
+.next-button {
+  margin-top: 5%;
+  background-color: #60E1E0;
+  color: #1E1E2A;
+  font-size: 1rem;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  border: 1px solid #1E1E2A;
+}
 
-.card-3:hover > .card-wrapper p {
-  opacity: 1;
-  visibility: visible;
-  font-size: 14px;
-
+.next-button:hover {
+  background-color: #ffffff;
+  transform: scale(1.05);
 }
 
 
@@ -493,7 +439,7 @@ a:hover {
 
   /* Cards */
 
-  .card-1 {
+  .card-geral {
     width: 200px;
     height: 200px;
     border-radius: 100%;
@@ -502,43 +448,7 @@ a:hover {
     align-items: center;
     justify-content: center;
     background-color: #60E1E0;
-    background-image: url("./BOT_LinkedIn.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    filter: grayscale(0.5);
-    color: #1E1E2A;
-    cursor: pointer;
-    transition: 0.5s ease-in-out;
-  }
-
-  .card-2 {
-    width: 200px;
-    height: 200px;
-    border-radius: 100%;
-    margin: 3em 0 0 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #60E1E0;
-    background-image: url("./5S.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    filter: grayscale(0.5);
-    color: #1E1E2A;
-    cursor: pointer;
-    transition: 0.5s ease-in-out;
-  }
-
-  .card-3 {
-    width: 200px;
-    height: 200px;
-    border-radius: 100%;
-    margin: 3em 0 0 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #60E1E0;
-    background-image: url("./IONIC_APP_TASKER.jpg");
+    /* background-image: url("./BOT_LinkedIn.png"); */
     background-position: center;
     background-repeat: no-repeat;
     filter: grayscale(0.5);
@@ -570,6 +480,10 @@ a:hover {
     letter-spacing: 1px;
     font-size: larger;
     color: rgb(109, 109, 109);
+  }
+
+  .next-button {
+    font-size: 14px;
   }
 
 }
@@ -654,7 +568,7 @@ a:hover {
 
   /* Cards */
 
-  .card-1 {
+  .card-geral {
     width: 200px;
     height: 200px;
     border-radius: 100%;
@@ -663,43 +577,7 @@ a:hover {
     align-items: center;
     justify-content: center;
     background-color: #60E1E0;
-    background-image: url("./BOT_LinkedIn.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    filter: grayscale(0.5);
-    color: #1E1E2A;
-    cursor: pointer;
-    transition: 0.5s ease-in-out;
-  }
-
-  .card-2 {
-    width: 200px;
-    height: 200px;
-    border-radius: 100%;
-    margin: 3em 0 0 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #60E1E0;
-    background-image: url("./5S.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    filter: grayscale(0.5);
-    color: #1E1E2A;
-    cursor: pointer;
-    transition: 0.5s ease-in-out;
-  }
-
-  .card-3 {
-    width: 200px;
-    height: 200px;
-    border-radius: 100%;
-    margin: 3em 0 0 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #60E1E0;
-    background-image: url("./IONIC_APP_TASKER.jpg");
+    /* background-image: url("./BOT_LinkedIn.png"); */
     background-position: center;
     background-repeat: no-repeat;
     filter: grayscale(0.5);
@@ -731,6 +609,10 @@ a:hover {
     letter-spacing: 1px;
     font-size: larger;
     color: rgb(109, 109, 109);
+  }
+
+  .next-button {
+    font-size: 12px;
   }
 
 }
@@ -815,7 +697,7 @@ a:hover {
 
   /* Cards */
 
-  .card-1 {
+  .card-geral {
     width: 200px;
     height: 200px;
     border-radius: 100%;
@@ -824,43 +706,7 @@ a:hover {
     align-items: center;
     justify-content: center;
     background-color: #60E1E0;
-    background-image: url("./BOT_LinkedIn.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    filter: grayscale(0.5);
-    color: #1E1E2A;
-    cursor: pointer;
-    transition: 0.5s ease-in-out;
-  }
-
-  .card-2 {
-    width: 200px;
-    height: 200px;
-    border-radius: 100%;
-    margin: 3em 0 0 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #60E1E0;
-    background-image: url("./5S.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    filter: grayscale(0.5);
-    color: #1E1E2A;
-    cursor: pointer;
-    transition: 0.5s ease-in-out;
-  }
-
-  .card-3 {
-    width: 200px;
-    height: 200px;
-    border-radius: 100%;
-    margin: 3em 0 0 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #60E1E0;
-    background-image: url("./IONIC_APP_TASKER.jpg");
+    /* background-image: url("./BOT_LinkedIn.png"); */
     background-position: center;
     background-repeat: no-repeat;
     filter: grayscale(0.5);
@@ -892,6 +738,10 @@ a:hover {
     letter-spacing: 1px;
     font-size: larger;
     color: rgb(109, 109, 109);
+  }
+
+  .next-button {
+    font-size: 12px;
   }
 
 }
@@ -976,7 +826,7 @@ a:hover {
 
   /* Cards */
 
-  .card-1 {
+  .card-geral {
     width: 200px;
     height: 200px;
     border-radius: 100%;
@@ -985,43 +835,7 @@ a:hover {
     align-items: center;
     justify-content: center;
     background-color: #60E1E0;
-    background-image: url("./BOT_LinkedIn.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    filter: grayscale(0.5);
-    color: #1E1E2A;
-    cursor: pointer;
-    transition: 0.5s ease-in-out;
-  }
-
-  .card-2 {
-    width: 200px;
-    height: 200px;
-    border-radius: 100%;
-    margin: 3em 0 0 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #60E1E0;
-    background-image: url("./5S.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    filter: grayscale(0.5);
-    color: #1E1E2A;
-    cursor: pointer;
-    transition: 0.5s ease-in-out;
-  }
-
-  .card-3 {
-    width: 200px;
-    height: 200px;
-    border-radius: 100%;
-    margin: 3em 0 0 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #60E1E0;
-    background-image: url("./IONIC_APP_TASKER.jpg");
+    /* background-image: url("./BOT_LinkedIn.png"); */
     background-position: center;
     background-repeat: no-repeat;
     filter: grayscale(0.5);
@@ -1053,6 +867,10 @@ a:hover {
     letter-spacing: 1px;
     font-size: larger;
     color: rgb(109, 109, 109);
+  }
+
+  .next-button {
+    font-size: 16px;
   }
 
 }
@@ -1137,7 +955,7 @@ a:hover {
 
   /* Cards */
 
-  .card-1 {
+  .card-geral {
     width: 200px;
     height: 200px;
     border-radius: 100%;
@@ -1146,43 +964,7 @@ a:hover {
     align-items: center;
     justify-content: center;
     background-color: #60E1E0;
-    background-image: url("./BOT_LinkedIn.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    filter: grayscale(0.5);
-    color: #1E1E2A;
-    cursor: pointer;
-    transition: 0.5s ease-in-out;
-  }
-
-  .card-2 {
-    width: 200px;
-    height: 200px;
-    border-radius: 100%;
-    margin: 3em 0 0 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #60E1E0;
-    background-image: url("./5S.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    filter: grayscale(0.5);
-    color: #1E1E2A;
-    cursor: pointer;
-    transition: 0.5s ease-in-out;
-  }
-
-  .card-3 {
-    width: 200px;
-    height: 200px;
-    border-radius: 100%;
-    margin: 3em 0 0 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #60E1E0;
-    background-image: url("./IONIC_APP_TASKER.jpg");
+    /* background-image: url("./BOT_LinkedIn.png"); */
     background-position: center;
     background-repeat: no-repeat;
     filter: grayscale(0.5);
@@ -1214,6 +996,10 @@ a:hover {
     letter-spacing: 1px;
     font-size: larger;
     color: rgb(109, 109, 109);
+  }
+
+  .next-button {
+    font-size: 14px;
   }
 
 }
@@ -1298,7 +1084,7 @@ a:hover {
 
   /* Cards */
 
-  .card-1 {
+  .card-geral {
     width: 200px;
     height: 200px;
     border-radius: 100%;
@@ -1307,43 +1093,7 @@ a:hover {
     align-items: center;
     justify-content: center;
     background-color: #60E1E0;
-    background-image: url("./BOT_LinkedIn.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    filter: grayscale(0.5);
-    color: #1E1E2A;
-    cursor: pointer;
-    transition: 0.5s ease-in-out;
-  }
-
-  .card-2 {
-    width: 200px;
-    height: 200px;
-    border-radius: 100%;
-    margin: 3em 0 0 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #60E1E0;
-    background-image: url("./5S.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    filter: grayscale(0.5);
-    color: #1E1E2A;
-    cursor: pointer;
-    transition: 0.5s ease-in-out;
-  }
-
-  .card-3 {
-    width: 200px;
-    height: 200px;
-    border-radius: 100%;
-    margin: 3em 0 0 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #60E1E0;
-    background-image: url("./IONIC_APP_TASKER.jpg");
+    /* background-image: url("./BOT_LinkedIn.png"); */
     background-position: center;
     background-repeat: no-repeat;
     filter: grayscale(0.5);
@@ -1375,6 +1125,10 @@ a:hover {
     letter-spacing: 1px;
     font-size: larger;
     color: rgb(109, 109, 109);
+  }
+
+  .next-button {
+    font-size: 12px;
   }
 
 }
@@ -1459,7 +1213,7 @@ a:hover {
 
   /* Cards */
 
-  .card-1 {
+  .card-geral {
     width: 200px;
     height: 200px;
     border-radius: 100%;
@@ -1468,43 +1222,7 @@ a:hover {
     align-items: center;
     justify-content: center;
     background-color: #60E1E0;
-    background-image: url("./BOT_LinkedIn.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    filter: grayscale(0.5);
-    color: #1E1E2A;
-    cursor: pointer;
-    transition: 0.5s ease-in-out;
-  }
-
-  .card-2 {
-    width: 200px;
-    height: 200px;
-    border-radius: 100%;
-    margin: 3em 0 0 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #60E1E0;
-    background-image: url("./5S.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    filter: grayscale(0.5);
-    color: #1E1E2A;
-    cursor: pointer;
-    transition: 0.5s ease-in-out;
-  }
-
-  .card-3 {
-    width: 200px;
-    height: 200px;
-    border-radius: 100%;
-    margin: 3em 0 0 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #60E1E0;
-    background-image: url("./IONIC_APP_TASKER.jpg");
+    /* background-image: url("./BOT_LinkedIn.png"); */
     background-position: center;
     background-repeat: no-repeat;
     filter: grayscale(0.5);
@@ -1536,6 +1254,10 @@ a:hover {
     letter-spacing: 1px;
     font-size: larger;
     color: rgb(109, 109, 109);
+  }
+
+  .next-button {
+    font-size: 10px;
   }
 
 }
